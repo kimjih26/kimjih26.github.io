@@ -1,0 +1,226 @@
+/*매장찾기*/
+#page_02 {
+width: 100%;
+height: 93.5%;
+ background-image: url(../../img/bg.png);
+position: relative
+}
+
+#tabs_2{width: 100%;height: 100%;}
+
+#tabs_2>.popup_nonhyun, .popup_gangnam, .popup_deachi, .popup_dosan,
+.popup_samsung, .popup_deachi, .popup_sinsa, .popup_yangjea, .popup_sonrung, .popup_gs, .popup_abgujeng, .popup_star
+
+{width: 100%;height: 100%;background-color: rgba(0,0,0,0.8);display: none;position: absolute;z-index: 500; }
+
+
+#nonhyun, #gangnam, #dosan, #samsung, #deachi,
+#sinsa, #yangjea, #sonrung, #gs, #samsung, #abgujeng, #star
+{width: 50%;height: 70%;
+ background-repeat: no-repeat;
+ background-size: auto;
+ background-position: center;
+ margin-left: 25%;margin-top: 5%;}
+
+
+#nonhyun {background-image: url(../../img/images/images/search_03.png);}
+#gangnam {background-image: url(../../img/images/gangnam/gangnam.png);}
+#deachi {background-image: url(../../img/images/gangnam/deachi.png);}
+#dosan {background-image: url(../../img/images/gangnam/dosan.png);}
+#samsung {background-image: url(../../img/images/gangnam/samsung.png);}
+#sinsa {background-image: url(../../img/images/gangnam/sinsa.png);}
+#yangjea {background-image: url(../../img/images/gangnam/yangjea.png);}
+#sonrung {background-image: url(../../img/images/gangnam/sonrung.png);}
+#gs {background-image: url(../../img/images/gangnam/gs.png);}
+#abgujeng {background-image:url(../../img/images/gangnam/abgujeng.png);}
+#star {background-image: url(../../img/images/gangnam/star.png);}
+
+#page_02>.bg_04 {
+width: 27.8%;
+height: 19.5%;
+ background-image: url(../../img/images/images/search_05_02.png);
+ background-repeat: no-repeat;
+ background-size: auto;
+ background-position: center;
+position: absolute;
+top: 6.5%;
+left: 0px;
+}
+
+#page_02>.bg_02 {
+width: 50.5%;
+height: 87%;
+background-image: url(../../img/images/bg_2.png);
+background-repeat: no-repeat;
+background-size: auto;
+background-position: center;
+position: absolute;
+left: 27%;
+top: 4%;
+}
+
+#tabs {
+width: 100%;
+height: 100%;
+position: relative;
+}
+
+#tabs .map_01,.map_02,.map_03,.map_04,.map_05,.map_07,
+.map_09,.map_10,.map_12,.map_13,.map_14,.map_15,.map_16,.map_17
+{width:7%;height:4%;
+ background-repeat: no-repeat;background-position: center center;
+ background-size: 80%;position: absolute;left: 90%;
+z-index: 1100}
+
+#tabs .map_01 {top: 16%;
+ background-image: url(../../img/images/map/map_01.gif);}
+#tabs .map_02 {;background-image:
+url(../../img/images/map/map_02.gif);top: 20%;}
+#tabs .map_03 {;background-image:
+url(../../img/images/map/map_03.gif);top: 24%;}
+#tabs .map_04 {background-image: url(../../img/images/map/map_04.gif);top: 28%;}
+#tabs .map_05 {background-image: url(../../img/images/map/map_05.gif);top: 32%;}
+#tabs .map_07 {background-image: url(../../img/images/map/map_07.gif);top: 36%;}
+#tabs .map_09 {background-image:
+url(../../img/images/map/map_09.gif);top: 40%;}
+#tabs .map_10 {background-image: 
+url(../../img/images/map/map_10.gif);top: 44%;}
+#tabs .map_12 {background-image: 
+url(../../img/images/map/map_12.gif);top: 48%;}
+#tabs .map_13 {background-image:
+url(../../img/images/map/map_13.gif);top: 52%;}
+#tabs .map_14 {background-image: url(../../img/images/map/map_14.gif);top: 56%;}
+#tabs .map_15 {background-image: url(../../img/images/map/map_15.gif);top: 60%;}
+
+#tabs .map_17 {background-image: url(../../img/images/map/map_17.gif);top: 64%;}
+
+#tabs>ul {
+width: 100%;
+height: 100%;
+}
+
+#tabs>ul a {
+width: 100%;
+height: 100%;
+display: block;
+}
+
+#page_02>.tabs_1 {
+position: relative;
+width: 100%;
+height: 100%;
+}
+
+#seoul {width: 70%;height: 87%;
+ position: absolute ;left: 15%;top: 4%;z-index: 100;
+}
+#seoul>ul {width: 100%;height: 100%;position: relative;margin-top: 15%;margin-left: 20%;}
+#seoul>ul>li{position: absolute;
+background-repeat: no-repeat;
+background-position:left;
+}
+/*강남구*/
+#seoul>ul>li:nth-child(1){width: 11%;height: 4%;top:7%;background-image: url(../../img/images/gangnam_01.png);}
+#seoul>ul>li:nth-child(2){width: 10%;height: 3%;top:7%;left: 11%;background-image: url(../../img/images/gangnam_02.png);}
+#seoul>ul>li:nth-child(3){width: 10%;height: 3%;top:7%;left: 21%;background-image: url(../../img/images/gangnam_03.png);}
+#seoul>ul>li:nth-child(4){width: 8%;height: 3%;top:7%;left: 31%;background-image: url(../../img/images/gangnam_04.png);}
+#seoul>ul>li:nth-child(5){width: 10%;height: 3%;top:7%;left: 39%;background-image: url(../../img/images/gangnam_05.png);}
+#seoul>ul>li:nth-child(6){width: 13%;height: 3%;top:12%;left: 11%;background-image: url(../../img/images/gangnam_06.png);}
+#seoul>ul>li:nth-child(7){width: 10%;height: 3%;top:12%;left: 24%;background-image: url(../../img/images/gangnam_07.png);}
+#seoul>ul>li:nth-child(8){width: 10%;height: 3%;top:12%;left: 34%;background-image: url(../../img/images/gangnam_08.png);}
+#seoul>ul>li:nth-child(9){width: 10%;height: 3%;top:12%;left: 44%;background-image: url(../../img/images/gangnam_09.png);}
+#seoul>ul>li:nth-child(10){width: 10%;height: 3%;top:12%;left: 52%;background-image: url(../../img/images/gangnam_10.png);}
+#seoul>ul>li:nth-child(11){width: 12%;height: 3%;top:17%;left: 11%;background-image: url(../../img/images/gangnam_11.png);}
+#seoul>ul>li:nth-child(12){width: 13%;height: 3%;top:17%;left: 23%;background-image: url(../../img/images/gangnam_12.png);}
+/*강동구*/
+#seoul>ul>li:nth-child(13){width: 11%;height: 4%;top:22%;background-image: url(../../img/images/gangdong_01.png);}
+#seoul>ul>li:nth-child(14){width: 12%;height: 3%;top:22%;left: 11%;background-image: url(../../img/images/gangdong_03.png);}
+#seoul>ul>li:nth-child(15){width: 10%;height: 3%;top:22%;left: 23%;background-image: url(../../img/images/gangdong_02.png);}
+/*강서구*/
+#seoul>ul>li:nth-child(16){width: 11%;height: 4%;top:27%;background-image: url(../../img/images/gangseo_01.png);}
+#seoul>ul>li:nth-child(17){width: 10%;height: 3%;top:27%;left: 11%;background-image: url(../../img/images/gangseo_02.png);}
+#seoul>ul>li:nth-child(18){width: 10%;height: 3%;top:27%;left: 21%;background-image: url(../../img/images/gangseo_03.png);}
+/*관악구*/
+#seoul>ul>li:nth-child(19){width: 11%;height: 4%;top:32%;background-image: url(../../img/images/gwanahk_01.png);}
+#seoul>ul>li:nth-child(20){width: 10%;height: 3%;top:32%;left: 11%;background-image: url(../../img/images/gwanahk_02.png);}
+#seoul>ul>li:nth-child(21){width: 10%;height: 3%;top:32%;left: 21%;background-image: url(../../img/images/gwanahk_03.png);}
+#seoul>ul>li:nth-child(22){width: 10%;height: 3%;top:32%;left: 31%;background-image: url(../../img/images/gwanahk_04.png);}
+/*광진구*/
+#seoul>ul>li:nth-child(23){width: 11%;height: 4%;top:37%;background-image: url(../../img/images/gwangjin_01.png);}
+#seoul>ul>li:nth-child(24){width: 8%;height: 3%;top:37%;left: 11%;background-image: url(../../img/images/gwangjin_03.png);}
+#seoul>ul>li:nth-child(25){width: 10%;height: 3%;top:37%;left: 19%;background-image: url(../../img/images/gwangjin_02.png);}
+/*구로구*/
+#seoul>ul>li:nth-child(26){width: 11%;height: 4%;top:42%;background-image: url(../../img/images/gurogu_01.png);}
+#seoul>ul>li:nth-child(27){width: 13%;height: 3%;top:42%;left: 11%;background-image: url(../../img/images/gurogu_02.png);}
+/*노원구*/
+#seoul>ul>li:nth-child(28){width: 11%;height: 4%;top:47%;background-image: url(../../img/images/nowon_01.png);}
+#seoul>ul>li:nth-child(29){width: 13%;height: 3%;top:47%;left: 11%;background-image: url(../../img/images/nowon_02.png);}
+/*도봉구*/
+#seoul>ul>li:nth-child(30){width: 11%;height: 4%;top:52%;background-image: url(../../img/images/dobong_01.png);}
+#seoul>ul>li:nth-child(31){width: 13%;height: 3%;top:52%;left: 11%;background-image: url(../../img/images/dobong_02.png);}
+/*동대문구*/
+#seoul>ul>li:nth-child(32){width: 14%;height: 4%;top:57%;background-image: url(../../img/images/dongdae_01.png);left: -2.9%;}
+#seoul>ul>li:nth-child(33){width: 13%;height: 3%;top:57%;left: 11%;background-image: url(../../img/images/dongdae_02.png);}
+/*동작구*/
+#seoul>ul>li:nth-child(34){width: 11%;height: 4%;top:62%;background-image: url(../../img/images/dongjak_01.png);}
+#seoul>ul>li:nth-child(35){width: 11%;height: 3%;top:62%;left: 11%;background-image: url(../../img/images/dongjak_02.png);}
+#seoul>ul>li:nth-child(36){width: 13%;height: 3%;top:62%;left: 21%;background-image: url(../../img/images/dongjak_03.png);}
+#seoul>ul>li:nth-child(37){width: 8%;height: 3%;top:62%;left: 34%;background-image: url(../../img/images/dongjak_04.png);}
+#seoul>ul>li:nth-child(38){width: 8%;height: 3%;top:62%;left: 42%;background-image: url(../../img/images/dongjak_05.png);}
+/*마포구*/
+#seoul>ul>li:nth-child(39){width: 11%;height: 4%;top:67%;background-image: url(../../img/images/mapo_01.png);}
+#seoul>ul>li:nth-child(40){width: 12%;height: 3%;top:67%;left: 11%;background-image: url(../../img/images/mapo_02.png);}
+#seoul>ul>li:nth-child(41){width: 12%;height: 3%;top:67%;left: 23%;background-image: url(../../img/images/mapo_03.png);}
+#seoul>ul>li:nth-child(42){width: 10%;height: 3%;top:67%;left: 35%;background-image: url(../../img/images/mapo_04.png);}
+
+
+#tabs>.tabs_1>.same{ 
+ background-repeat: no-repeat;
+ background-position: top;
+ position: absolute;left: 24%;top: 23%;z-index: 300;}
+
+#seoul a {width: 100%;height: 100%;display: block;}
+
+#incheon {width: 50.5%;height: 87%;
+ background-image: url(../../img/images/inchun_06.png);}
+
+#gyeonggi {width: 50.5%;height: 87%;
+ background-image: url(../../img/images/ggi_06.png);}
+
+#gangwon {width: 50.5%;height: 87%;background-image: url(../../img/images/gangwon_06.png);}
+
+#chung {width: 50.5%;height: 87%;background-image: url(../../img/images/chungcheng_06.png);}
+
+#gyeongsang {width: 50.5%;height: 87%;background-image: url(../../img/images/gsang_06.png);}
+
+#daejeon {width: 50.5%;height: 87%;background-image: url(../../img/images/deajeon_06.png);}
+
+
+
+#jeonra {width: 50.5%;height: 87%;background-image: url(../../img/images/jeonra_06.png);}
+
+#daegu {width: 50.5%;height: 87%;background-image: url(../../img/images/deagu_06.png);}
+
+#ulsan {width: 50.5%;height: 87%;background-image: url(../../img/images/ulsan_06.png);}
+
+#busan {width: 50.5%;height: 87%;background-image: url(../../img/images/busan_06.png);}
+
+#gwangju {width: 50.5%;height: 87%;background-image: url(../../img/images/gwangju_06.png);}
+
+
+#etc {width: 50.5%;height: 87%;background-image: url(../../img/images/etc_06.png);}
+
+
+
+
+#page_02>.bg_05 {
+width: 16%;
+height: 46.2%;
+ background-image: url(../../img/images/images/search_04_03.png);
+ background-repeat: no-repeat;
+ background-size: auto;
+ background-position: center;
+position: absolute;
+left: 84%;
+top: 32%;
+}
