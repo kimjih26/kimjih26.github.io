@@ -1,0 +1,40 @@
+/*고객센터*/
+
+#page_05 {
+ width: 100%;
+ height: 100%;
+ background-image: url(../../img/bg.png);
+ position: relative;
+}
+
+#page_05>.sori {
+ width: 51%;
+ height: 22%;
+ position: absolute;
+ top: 36.5%;
+ left: 36.5%;
+}
+
+#page_05>.go {
+ width: 13.5%;
+ height: 6%;
+ position: absolute;
+ top: 64.8%;
+ left: 44%;
+}
+
+#page_05>.bg_10 {
+ width: 24%;
+ height: 32.5%;
+ position: absolute;
+ top: 58.5%;
+ left: 10%;
+}
+
+#page_05>.bg_11 {
+ width: 30%;
+ height: 48%;
+ position: absolute;
+ top: 0;
+ left: 70%;
+}

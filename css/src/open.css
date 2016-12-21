@@ -1,0 +1,103 @@
+/*창업안내*/
+#page_03 {
+width: 100%;
+height: 93.5%;
+ background-image: url(../../img/bg.png);
+position: relative;
+}
+
+#page_03>.popup_power{width: 100%;height: 100%;background-color: rgba(0,0,0,0.8);display: none;position: absolute;z-index: 1000; }
+#page_03>.popup_power>ul{width: 100%;height: 100%;
+ padding-top:5%; box-sizing: border-box;}
+#page_03>.popup_power>ul>li{width: 100%;height: 100%;
+ 
+background-image: url(../../img/images/open_01_01_02.png);
+background-repeat: no-repeat;
+background-position: center top;
+background-size: auto;
+}
+
+#page_03>.popup_step{width: 100%;height: 100%;background-color: rgba(0,0,0,0.8);display: none;position: absolute;z-index: 1000; }
+#page_03>.popup_step>ul{width: 100%;height: 100%;}
+#page_03>.popup_step>ul>li{width: 100%;height: 100%;
+ margin: 5% auto;
+ background-image: url(../../img/images/open_01_02_03.png);
+ background-repeat: no-repeat;
+ background-position: center top;
+ background-size: auto;}
+
+#page_03>.popup_qna{width: 100%;height: 100%;background-color: rgba(0,0,0,0.8);display: none;position: absolute;z-index: 1000; }
+#page_03>.popup_qna>ul{width: 100%;height: 100%;}
+#page_03>.popup_qna>ul>li{width: 100%;height: 100%;
+ margin: 5% auto;
+ background-image: url(../../img/images/open_01_03_03.png);
+ background-repeat: no-repeat;
+ background-position: center top;
+ background-size: auto;}
+
+#page_03>.popup_rule{width: 100%;height: 100%;background-color: rgba(0,0,0,0.8);display: none;position: absolute;z-index: 1000; }
+#page_03>.popup_rule>ul{width: 100%;height: 100%;}
+#page_03>.popup_rule>ul>li{width: 100%;height: 100%;
+ margin: 5% auto;
+ background-image: url(../../img/images/open_01_04_03.png);
+ background-repeat: no-repeat;
+ background-position: center top;
+ background-size: auto;}
+
+#page_03>.popup_ex{width: 100%;height: 100%;background-color: rgba(0,0,0,0.8);display: none;position: absolute;z-index: 1000; }
+#page_03>.popup_ex>ul{width: 100%;height: 100%;}
+#page_03>.popup_ex>ul>li{width: 100%;height: 100%;
+ margin: 5% auto;
+ background-image: url(../../img/images/open_01_05_03.png);
+ background-repeat: no-repeat;
+ background-position: center top;
+ background-size: auto;}
+
+#page_03>.menu {
+width: 34.5%;
+height: 20%;
+position: absolute;
+top: 26.7%;
+left: 35%;
+
+}
+#page_03>.menu>ul{width: 100%;height: 100%;}
+#page_03>.menu>ul>li{width: 50%;float: left;}
+
+#page_03>.menu>ul>.power{height: 40%;}
+#page_03>.menu>ul>.power a{width: 100%;height: 50%;display: block;}
+#page_03>.menu>ul>.step{height: 40%;}
+
+#page_03>.menu>ul>.step a{width: 100%;height: 50%;display: block;}
+#page_03>.menu>ul>.qna{height: 60%;}
+#page_03>.menu>ul>.qna a{width: 100%;height: 33%;display: block;}
+
+#page_03>.menu>ul>.rule{height: 40%;}
+#page_03>.menu>ul>.rule a{width: 100%;height: 50%;display: block;}
+#page_03>.menu>ul>.ex{height: 20%;}
+#page_03>.menu>ul>.ex a{width: 100%;height: 100%;display: block;}
+
+
+#page_03>.address {
+width: 34.5%;
+height: 7.8%;
+position: absolute;
+top: 73.6%;
+left: 37%;
+}
+
+#page_03>.bg_06 {
+width: 18%;
+height: 20%;
+position: absolute;
+top: 69%;
+left: 10%;
+}
+
+#page_03>.bg_07 {
+width: 21%;
+height: 56%;
+position: absolute;
+top: 36.5%;
+left: 75.5%;
+}
