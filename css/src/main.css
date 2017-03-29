@@ -22,7 +22,7 @@ body {
  background-image: url(../../img/table_01.png);top:10%;left: 35%;z-index: 300;}
 
 #page_00>ul>li:nth-child(2){width: 25%;height: 60%;
- background-image: url(../../img/table.png);top:40%;left: 80%;
+ background-image: url(../../img/table.png);top:40%;left: 70%;
 z-index: 300;
  transform:translateX(55%);
  transition-delay:0.5s;
@@ -32,7 +32,7 @@ z-index: 300;
  background-image: url(../../img/door.gif);top:5%;left: 5%;}
 
 #page_00>ul>li:nth-child(4){width: 10%;height: 50%;
- background-image: url(../../img/hood.png);top:20%;left: 80%;
+ background-image: url(../../img/hood.png);top:20%;left: 70%;
  transform:translateX(-100%);
  transition-delay:0.4s;
  transition-duration: 2.5s;}
